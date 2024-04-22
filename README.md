@@ -7,6 +7,23 @@
 # converted_keras
 - 소스코드에 이미지 경로 하나를 지정해 무엇인지 판단(강아지, 사람, 자동차, 식물)
 
+# Packages
+- requirements.txt가 있는 경우
+
+    pip install -r requirementx.txt
+
+- requirementx.txt가 없는경우
+  
+      pip install opencv-python 
+      pip install pillow 
+      pip install tensorflow==2.12.0
+
+- Requirements.txt를 만드는 법 (개발에 필요한 패키지를 버젼까지 저장해 놓은 중요한 문서)
+  
+      pip freeze > requirements.txt
+
+- 코드를 tm001.py - 코드를 실행해서 결과를 확인 하세요 - 코드를 수정 완성하세요 - 폴더위치등을 수정하세요 (코드는 TM에서 코드스니펫으로 가져 올수 있어요)
+
 # .h5
 - 케라스, TF용 가중치 파일이며 이를 통해 응용프로그램을 제작할 수 있음
 
